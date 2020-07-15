@@ -19,7 +19,7 @@ okd4-control-plane-1.lab.okd.local.        IN      A      192.168.60.241
 
 ; OpenShift internal cluster IPs - A records
 api.lab.okd.local.    IN    A    192.168.60.240
-api-int.lab.okd.local.    IN    A    1192.168.60.240
+api-int.lab.okd.local.    IN    A    192.168.60.240
 *.apps.lab.okd.local.    IN    A    192.168.60.240
 etcd-0.lab.okd.local.    IN    A     192.168.60.241
 console-openshift-console.apps.lab.okd.local.     IN     A     192.168.60.240
