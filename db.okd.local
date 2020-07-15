@@ -20,10 +20,10 @@ okd4-control-plane-1.lab.okd.local.        IN      A      192.168.60.241
 ; OpenShift internal cluster IPs - A records
 api.lab.okd.local.    IN    A    192.168.60.240
 api-int.lab.okd.local.    IN    A    192.168.60.240
-*.apps.lab.okd.local.    IN    A    192.168.60.240
+*.apps.lab.okd.local.    IN    A    192.168.60.241
 etcd-0.lab.okd.local.    IN    A     192.168.60.241
-console-openshift-console.apps.lab.okd.local.     IN     A     192.168.60.240
-oauth-openshift.apps.lab.okd.local.     IN     A     192.168.60.240
+console-openshift-console.apps.lab.okd.local.     IN     A     192.168.60.241
+oauth-openshift.apps.lab.okd.local.     IN     A     192.168.60.241
 
 ; OpenShift internal cluster IPs - SRV records
 _etcd-server-ssl._tcp.lab.okd.local.    86400     IN    SRV     0    10    2380    etcd-0.lab
