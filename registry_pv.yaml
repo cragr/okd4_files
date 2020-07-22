@@ -10,4 +10,4 @@ spec:
   persistentVolumeReclaimPolicy: Retain
   nfs:
     path: /var/nfsshare/registry
-    server: 192.168.1.210 
+    server: 192.168.60.240 
