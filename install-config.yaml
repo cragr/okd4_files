@@ -26,5 +26,5 @@ platform:
 
 fips: false
 
-pullSecret: '{"auths":{"fake":{"auth": "bar"}}}' 
+pullSecret: '{"auths":{"fake":{"auth": "Zm9vOmJhcgo="}}}' 
 sshKey: 'ssh-ed25519 AAAA...'   
