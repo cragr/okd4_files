@@ -15,9 +15,9 @@ okd4-svc.okd.local.          IN      A       192.168.50.6
 
 ; OpenShift Container Platform Cluster - A records
 okd4-bootstrap.lab.okd.local.        IN      A      192.168.50.7
-okd4-control-plane-1.lab.okd.local.        IN      A      192.168.50.8
-okd4-control-plane-2.lab.okd.local.         IN      A      192.168.50.9
-okd4-control-plane-3.lab.okd.local.         IN      A      192.168.50.10
+okd4-ctrl-1.lab.okd.local.        IN      A      192.168.50.8
+okd4-ctrl-2.lab.okd.local.         IN      A      192.168.50.9
+okd4-ctrl-3.lab.okd.local.         IN      A      192.168.50.10
 okd4-compute-1.lab.okd.local.        IN      A      192.168.50.11
 okd4-compute-2.lab.okd.local.        IN      A      192.168.50.12
 
