@@ -3,7 +3,7 @@ zone "okd.local" {
     file "/etc/named/zones/db.okd.local"; # zone file path
 };
 
-zone "50.168.192.in-addr.arpa" {
+zone "200.16.172.in-addr.arpa" {
     type master;
-    file "/etc/named/zones/db.192.168.50";  # 192.168.50.0/27 subnet
+    file "/etc/named/zones/db.172.16.200";  # 172.16.200.0/24 subnet
 };
