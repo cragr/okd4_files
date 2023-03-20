@@ -15,22 +15,22 @@ okd4-svc.okd.          IN      A       192.168.50.2
 
 ; OpenShift Container Platform Cluster - A records
 okd4-bootstrap.okd.        IN      A      192.168.50.10
-okd4-ctrl-1.okd.        IN      A      192.168.50.11
-okd4-ctrl-2.okd.         IN      A      192.168.50.12
-okd4-ctrl-3.okd.         IN      A      192.168.50.13
+okd4-ctrl-1.okd.           IN      A      192.168.50.11
+okd4-ctrl-2.okd.           IN      A      192.168.50.12
+okd4-ctrl-3.okd.           IN      A      192.168.50.13
 okd4-compute-1.okd.        IN      A      192.168.50.21
 okd4-compute-2.okd.        IN      A      192.168.50.22
 okd4-compute-3.okd.        IN      A      192.168.50.23
 
 ; OpenShift internal cluster IPs - A records
-api.lab.okd.    IN    A    192.168.50.2
-api-int.okd.    IN    A    192.168.50.2
+api.lab.okd.   IN    A    192.168.50.2
+api-int.okd.   IN    A    192.168.50.2
 *.apps.okd.    IN    A    192.168.50.2
 etcd-0.okd.    IN    A     192.168.50.11
 etcd-1.okd.    IN    A     192.168.50.12
 etcd-2.okd.    IN    A    192.168.50.13
 console-openshift-console.apps.okd.     IN     A     192.168.50.2
-oauth-openshift.apps.okd.     IN     A     192.168.50.2
+oauth-openshift.apps.okd.               IN     A     192.168.50.2
 
 ; OpenShift internal cluster IPs - SRV records
 _etcd-server-ssl._tcp.okd.    86400     IN    SRV     0    10    2380    etcd-0.lab
